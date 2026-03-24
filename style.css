@@ -1,0 +1,57 @@
+.user-card,
+.post-card {
+    border: 1px solid #ccc;
+    padding: 12px;
+    margin-bottom: 12px;
+    border-radius: 8px;
+}
+
+.user-card {
+    cursor: pointer;
+}
+
+#searchInput {
+    display: block;
+    margin-bottom: 16px;
+    padding: 8px;
+    width: 250px;
+}
+
+.favorite-btn,
+#backButton,
+#loadUsers {
+    margin-top: 8px;
+    padding: 8px 12px;
+    cursor: pointer;
+}
+
+
+#showAllBtn,
+#showFavoritesBtn {
+    padding: 8px 12px;
+    margin-right: 8px;
+    border: 1px solid #ccc;
+    background: white;
+    cursor: pointer;
+    border-radius: 6px;
+}
+
+.active-filter {
+    background-color: black;
+    color: white;
+    border-color: black;
+}
+
+.favorite-btn {
+    padding: 8px 12px;
+    margin-top: 8px;
+    border: 1px solid #ccc;
+    background: white;
+    cursor: pointer;
+    border-radius: 6px;
+}
+
+.favorite-active {
+    background-color: gold;
+    border-color: goldenrod;
+}
